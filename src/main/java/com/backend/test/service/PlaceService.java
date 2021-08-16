@@ -13,18 +13,18 @@ public class PlaceService {
     }
 	 
 	@GET
-	@Path("/{placeName}")
+	@Path("/{getPlace}")
     public Place getPlace(String placeName) {
         return PlaceDAO.getPlace(placeName);
     }
 	@POST
-	@Path("/{placeName}")
+	@Path("/{publishPlace}")
     public Place addPlace(Place place) {
         return PlaceDAO.addPlace(place);
     }
 	
 	@PUT
-	@Path("/{placeName}")
+	@Path("/{editPlace}")
     public Place updatePlace(Place place) {
         return PlaceDAO.updatePlace(place);
     }

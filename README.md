@@ -1,4 +1,4 @@
-# BackendTest
+# API Places
 
 ## A simple spring API in java (CRUD). 
 
